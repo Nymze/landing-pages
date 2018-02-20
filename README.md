@@ -1,24 +1,6 @@
-# README
+# Heroku
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ https://powerful-sands-24944.herokuapp.com/
 
-Things you may want to cover:
+Je me suis plus concentré sur Flynn que sur Checkr, j'ai pas testé sur tout les navigateurs, mais ça fonctionne sur Chrome et safari chez moi. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
