@@ -1,6 +1,320 @@
-.titre1{
-	
-	color: orange;
+@font-face {
+  font-family: "League Spartan Bold";
+  src: url(/assets/LeagueSpartan-Bold.otf) format("truetype");
+}
 
+
+
+body{
+
+	height: 100%;
+	width: 100%;
+}
+/* Top header and nav */
+.principalecontain{
+
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	
+	/* border: solid blue; */
+
+}
+
+
+.containertwo{
+
+	width: 60%;
+	margin: 0 auto;
+
+	/* border: solid green; */
+
+
+}
+
+.logocontain{
+
+
+	display: flex;
+	margin-top: 5%;
+	/* border: solid red; */
+	
+
+}
+
+.logodiv{
+
+
+	display: flex;
+	float: left;
+
+
+	/* border: solid orange; */
+}
+
+.flynnlogoimg{
+
+width: 20%;
+height: 100%;
+
+}
+
+/* Nav Right */
+
+.navigation{
+
+
+
+width: 100%;
+height: 100%;
+text-align: right;
+font-family: "League Spartan Bold";
+
+padding-bottom: 2%;
+
+
+/* border: solid yellow; */
+
+
+
+}
+
+.navlink{
+
+display: inline;
+width: 50%;
+color: #2ab360;
+
+text-decoration: none;
+text-align: center;
+padding-top: 5%;
+padding-right: 5%;
+
+
+
+/* border: solid blue; */
+
+
+
+}
+
+.navlink2{
+
+
+
+
+font-family: "League Spartan Bold";
+font-size: 100%;
+color: white;
+background-color: #2ab360;
+
+
+display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0.5% 0.05%;
+  border: 9px solid #2ab360;
+  -webkit-border-radius: 27px;
+  border-radius: 27px;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #2ab360;
+
+ 
+  
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+.try{
+
+	
+	text-align: center;
+	width: 25%;
+	height: 100%;
+}
+
+/* TITLE 1  */
+
+
+.h1top{
+	font-family: "League Spartan Bold";
+	text-align: center;
+	font-size: 440%;
+
+	/* border: solid blue; */
+
+
+}
+
+/*  Video */
+.mainsousheader{
+
+	height: 100%;
+
+
+	/* border: solid orange; */
+}
+
+
+.mediacontent{
+
+
+	width: 100%;
+	display: flex;
+	height: 50vh;
+
+	
+
+
+	/* border: solid red; */
+
+}
+
+.videoyt{
+
+	display: flex;
+	
+
+	margin: auto;
+	height: 100%;
+
+	/* border: solid black; */
+}
+
+/* ===== Middle Buttons ====*/
+
+.mediadiv{
+
+	margin: auto;
+	height: 100%;
+	width: 100%;
+
+	/* border: solid #dd28e0; */
+}
+
+
+.navmiddle{
+
+	display: block;
+
+margin-top: 5%;
+width: 100%;
+
+/* border: solid yellow; */
+
+
+}
+
+.navmiddle1{
+
+	/* border: solid blue; */
+	width: 100%;
+
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+
+
+}
+
+.navmiddlebut{
+
+margin: auto;
+display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  top: 2%;
+  padding: 10px 90px;
+  border: 2px solid rgba(180,180,180,0.8);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "League Spartan Bold";
+  color: #2ab360;
+  font-size: 100%;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 3px;
+  word-spacing: -1px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.2) ;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.2) ;
+  text-shadow: 0 0 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  height: 4vh;
+  width: 100%;
+
+
+
+}
+
+/* =====  Part2  =======*/
+
+
+.part2{
+
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+.title2{
+
+
+
+
+}
+
+.h1middle{
+
+
+	font-family: "League Spartan Bold";
+	font-size: 350%;
+	margin-top: 10%;
+}
+
+.subtitle2{
+
+font-family: 'Montserrat', sans-serif;
+font-size: 110%;
+color: #727272;
+line-height: 200%;
+}
+
+/* bullet list */
+
+.bulletcapsule{
+
+
+
+}
+
+.bullet{
+	
+
+
+
+
+}
+
+.libullet{
+
+display:list-item;
+
+	font-family: 'Montserrat', sans-serif;
+	color: #727272;
+	font-weight: 200;
+	line-height: 200%;
 
 }
