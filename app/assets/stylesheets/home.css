@@ -14,6 +14,26 @@ body{
 	height:100%;
 
 }
+
+.span1{
+	
+	color:#2ab360 ;
+	margin-right:0.5em;
+	margin-left:0.5em;
+}
+
+.span2{
+	
+	color: blue;
+	margin-left:0.5em;
+}
+
+.phome2{
+	
+	text-align: center;
+	font-family: "League Spartan Bold";
+}
+
 .homelink{
 
 
