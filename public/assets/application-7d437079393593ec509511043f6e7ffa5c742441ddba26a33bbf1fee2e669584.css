@@ -1,0 +1,1037 @@
+
+body, html{
+
+	font-family: "proxima-nova",sans-serif;
+
+	height: 100%;
+	overflow: scroll;
+
+	margin: 0;
+
+
+	
+}
+
+p{
+
+	text-align: left;
+}
+
+a {
+color: #ffffff;
+
+}
+/* Links in the header */
+.headlinks{
+
+	display: inline-flex;
+	float: right;
+	width: 30%;
+	/* border: solid orange; */
+	padding: 0;
+	margin-right: 10%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%
+
+
+
+
+}
+
+.top{
+	width: 100%;
+	float: right;
+	text-align: right;
+	padding-left: 2%;
+	padding: 0;
+	font-size: 80%;
+	font-weight: 100;
+	text-decoration: none;
+
+
+
+
+}
+
+/* Div that takes all of the header + dropdown */
+.linkstop{
+
+	
+	display: inline-flex;
+	width: 100%;
+	margin-top: 1%;
+
+
+}
+
+
+article {
+
+	height: 100%;
+
+}
+
+
+
+.maincontainer{
+
+
+
+height: 100%;
+
+
+
+
+}
+
+.bckgrd{
+	
+background-image: url(backgrdcheckr.jpg);
+background-position: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+height: 75%;
+padding-bottom: none;
+
+
+}
+
+.secondmain{
+
+/* border: solid blue; */
+display: block;
+width: 75%;
+height: 100%;
+margin-top: 0;
+margin-left: 15%;
+margin-bottom: 0;
+text-align: center;
+
+
+
+
+}
+
+.layout-hero{
+
+	
+}
+
+/* ====== Drop Down Menu for the Header */
+
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   	text-align: left;
+    /* border: solid orange; */
+    width: 100%
+
+
+
+
+
+}
+
+li {
+    float: left;
+   /* border: solid green; */
+    margin-left: 2%;
+
+    font-family: 'Open Sans', Helvetica, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 15px;
+   letter-spacing: 1px;
+   line-height: 1em;
+
+
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: none;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ====== End of Drop Down Menu for the Header */
+
+
+
+/* Deux div du bas Left and RIght */
+
+
+.left{
+
+	height: 100%;
+	width: 50%;
+	/* border: solid yellow; */
+
+
+}
+
+.insideleft{
+
+width: 75%;
+margin-top: 25%;
+
+
+
+}
+
+
+.titre1{
+	
+	/* border: solid red; */
+	color: white;
+	text-align: left;
+	font-size: 35px;
+
+
+}
+
+.paraf{
+
+font-family: 'Open Sans', Helvetica, sans-serif;
+color: white;
+font-weight: 100;
+font-size: 100%;
+letter-spacing: 1px;
+
+
+}
+
+.yellowbut{
+
+	float: left;
+	margin-top: 10%;
+	letter-spacing: 2px;
+	 display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 4% 8%;
+  border: none;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #3c5876;
+  font-size: 120%;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #dfbd3e;
+  -webkit-box-shadow: 0 0 2px 0 rgba(0,0,0,0.2) ;
+  box-shadow: 0 0 2px 0 rgba(0,0,0,0.2) ;
+  text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+/*  video Right*/
+
+
+.middle{
+
+
+	display: flex;
+}
+
+
+.right{
+
+	/* border: solid blue; */
+
+	display: flex;
+	
+	float: left;
+	height: 100%;
+	width: 50%;
+
+}
+
+.videoimg{
+
+/* border: solid orange; */
+padding-top: 5%;
+padding-bottom: 0;
+
+	height: 98%;
+	width: 100%;
+
+
+}
+
+
+/* ======= Page 2 ======*/
+
+.page2{
+
+
+
+}
+
+/*  == Brands == */
+
+
+.Brands{
+
+
+	width: 100%;
+	height: 100%;
+}
+
+
+
+.brandsimg{
+
+
+	width: 100%;
+	height: 100%;
+}
+
+
+/* page 3 */
+
+
+.page3{
+
+
+
+background-color: #f5f9fb;
+border: solid #e5e5e5;
+border-width: thin;
+
+}
+
+.page3container{
+
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 50%;
+  margin-top: 5%;
+}
+
+
+.page3container2{
+
+display: flex;
+  margin: auto;
+  width: 50%;
+  margin-bottom: 5%;
+
+}
+.h2page3{
+
+
+text-align: center;
+}
+
+.h3page3{
+
+
+
+
+
+margin-bottom: 2%;
+width: 100%;
+font-family: 'Montserrat', sans-serif;
+font-weight: 200;
+text-align: center;
+}
+
+.ppage3{
+display: flex;
+  margin: auto;
+  width: 50%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.mobile{
+
+
+  flex: 1;
+  width: 10%;
+  text-align: center;
+  font-size: 100%;
+
+   
+}
+
+.understand{
+
+  flex: 1;
+  width: 10%;
+  font-size: 100%;
+
+  
+}
+
+.automation{
+
+flex: 1;
+width: 10%;
+font-size: 100%;
+
+  display: inline-block;
+  margin: auto;
+
+   
+
+}
+
+/* ==== Jobs ==== */
+
+.page4{
+
+  width: 100%;
+  height: 100%;
+}
+
+.jobs{
+
+  margin-top: 5%;
+  width:100%;
+  height: 100%;
+  margin-bottom: 5%;
+}
+
+.jobsimg{
+
+display: flex;
+margin: auto;
+  width: 75%;
+  height: 75%;
+}
+
+
+/* */
+
+.box1{
+
+  width: 100%
+  display: inline-block;
+  
+  border: solid orange;
+  background-color: white;
+  text-align: center;
+}
+
+.h3box{
+
+  display: flex;
+  margin: 0;
+  width: 100%;
+ border: solid bleu;
+
+
+}
+@font-face {
+  font-family: "League Spartan Bold";
+  src: url(/assets/LeagueSpartan-Bold.otf) format("truetype");
+}
+
+
+
+body{
+
+	height: 100%;
+	width: 100%;
+}
+/* Top header and nav */
+.principalecontain{
+
+	height: 100%;
+	width: 100%;
+	background-color: white;
+	
+	/* border: solid blue; */
+
+}
+
+
+.containertwo{
+
+	width: 60%;
+	margin: 0 auto;
+
+	/* border: solid green; */
+
+
+}
+
+.logocontain{
+
+
+	display: flex;
+	margin-top: 5%;
+	/* border: solid red; */
+	
+
+}
+
+.logodiv{
+
+
+	display: flex;
+	float: left;
+
+
+	/* border: solid orange; */
+}
+
+.flynnlogoimg{
+
+width: 20%;
+height: 100%;
+
+}
+
+/* Nav Right */
+
+.navigation{
+
+
+
+width: 100%;
+height: 100%;
+text-align: right;
+font-family: "League Spartan Bold";
+
+padding-bottom: 2%;
+
+
+/* border: solid yellow; */
+
+
+
+}
+
+.navlink{
+
+display: inline;
+width: 50%;
+color: #2ab360;
+
+text-decoration: none;
+text-align: center;
+padding-top: 5%;
+padding-right: 5%;
+
+
+
+/* border: solid blue; */
+
+
+
+}
+
+.navlink2{
+
+
+
+
+font-family: "League Spartan Bold";
+font-size: 100%;
+color: white;
+background-color: #2ab360;
+
+
+display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0.5% 0.05%;
+  border: 9px solid #2ab360;
+  -webkit-border-radius: 27px;
+  border-radius: 27px;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #2ab360;
+
+ 
+  
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+.try{
+
+	
+	text-align: center;
+	width: 25%;
+	height: 100%;
+}
+
+/* TITLE 1  */
+
+
+.h1top{
+	font-family: "League Spartan Bold";
+	text-align: center;
+	font-size: 440%;
+
+	/* border: solid blue; */
+
+
+}
+
+/*  Video */
+.mainsousheader{
+
+	height: 100%;
+
+
+	/* border: solid orange; */
+}
+
+
+.mediacontent{
+
+
+	width: 100%;
+	display: flex;
+	height: 50vh;
+
+	
+
+
+	/* border: solid red; */
+
+}
+
+.videoyt{
+
+	display: flex;
+	
+
+	margin: auto;
+	height: 100%;
+
+	/* border: solid black; */
+}
+
+/* ===== Middle Buttons ====*/
+
+.mediadiv{
+
+	margin: auto;
+	height: 100%;
+	width: 100%;
+
+	/* border: solid #dd28e0; */
+}
+
+
+.navmiddle{
+
+	display: block;
+
+margin-top: 5%;
+width: 100%;
+
+/* border: solid yellow; */
+
+
+}
+
+.navmiddle1{
+
+	/* border: solid blue; */
+	width: 100%;
+
+display: flex;
+flex-direction: row;
+margin: 0 auto;
+
+
+}
+
+.navmiddlebut{
+
+margin: auto;
+display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  top: 2%;
+  padding: 10px 90px;
+  border: 2px solid rgba(180,180,180,0.8);
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "League Spartan Bold";
+  color: #2ab360;
+  font-size: 100%;
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  letter-spacing: 3px;
+  word-spacing: -1px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.2) ;
+  box-shadow: 0 0 0 0 rgba(0,0,0,0.2) ;
+  text-shadow: 0 0 0 rgba(15,73,168,0.66) ;
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  height: 4vh;
+  width: 100%;
+
+
+
+}
+
+/* =====  Part2  =======*/
+
+
+.part2{
+
+	width: 70%;
+	margin: 0 auto;
+
+}
+
+.title2{
+
+
+
+
+}
+
+.h1middle{
+
+
+	font-family: "League Spartan Bold";
+	font-size: 350%;
+	margin-top: 10%;
+}
+
+.subtitle2{
+
+font-family: 'Montserrat', sans-serif;
+font-size: 110%;
+color: #727272;
+line-height: 200%;
+}
+
+/* bullet list */
+
+.bulletcapsule{
+
+
+
+}
+
+.bullet{
+	
+
+
+
+
+}
+
+.libullet{
+
+display:list-item;
+
+	font-family: 'Montserrat', sans-serif;
+	color: #727272;
+	font-weight: 200;
+	line-height: 200%;
+
+}
+
+/*  === Boutton middle === */
+
+
+.buttonmiddle{
+
+
+
+}
+
+.trynow{
+
+font-family: "League Spartan Bold";
+font-size: 150%;
+color: white;
+background-color: #2ab360;
+text-align: center;
+
+display: flex;
+margin: auto;
+
+
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0.5% 0.5%;
+  border: 17px solid #2ab360;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #2ab360;
+
+ 
+  
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+
+}
+
+/* === 3rd Title ===  */
+
+.h1deux{
+
+	font-family: "League Spartan Bold";
+	font-size: 350%;
+	margin-top: 10%;
+
+}
+
+.h2deux{
+
+font-family: "League Spartan Bold";
+	font-size: 250%;
+	margin-top: 1%;
+
+}
+
+.title3para{
+font-family: 'Montserrat', sans-serif;
+color: #727272;
+font-weight: 400;
+font-size: 100%;
+line-height: 200%;
+}
+
+.t2{
+
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+/* === bottom part starting with button === */
+
+.buttonbottom{
+
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+.t2bottom{
+
+	text-align: center;
+}
+
+.email{
+
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+margin-bottom: 10%;
+
+}
+
+.inputm{
+
+	font-family: 'Montserrat', sans-serif;
+	color: #727272;
+	font-size: 100%;
+
+
+}
+
+.subm{
+
+margin-left: 1%;
+font-family: "League Spartan Bold";
+font-size: 100%;
+color: white;
+background-color: #2ab360;
+
+
+display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 0.02% 0.02%;
+  border: 9px solid #2ab360;
+  -webkit-border-radius: 27px;
+  border-radius: 2px;
+  color: rgba(255,255,255,0.9);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: #2ab360;
+  height: 50%;
+
+ 
+  
+  -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+
+
+}
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+  font-family: "League Spartan Bold";
+  src: url(/assets/LeagueSpartan-Bold.otf) format("truetype");
+}
+
+
+body{
+	
+	width:100%;
+	height:100%;
+
+}
+.homelink{
+
+
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	
+	font-family: "League Spartan Bold";
+	
+	Text-decoration: none;
+	font-size: 200%;
+
+}
+
+.bluepill{
+
+color: blue;
+	
+
+}
+
+.redpill{
+	
+	color: red;
+
+}
+
+.general{
+	
+	
+	text-align:center;
+}
+
+.h1home{
+	
+	text-align:center;
+}
+
+.phome{
+	
+	display: flex;
+	margin: auto;
+	width: 50%;
+	text-align:center;
+	font-family: "League Spartan Bold";
+}
+
+.linkshomediv{
+
+	
+	margin-top: 10%;
+	text-align:center;
+	display: flex;
+	
+	
+	
+	
+	
+
+}
+
+.linksmajordiv{
+
+
+}
+
+.morpheus{
+	
+	height: 100%;
+	width: 75%;
+}
+.titre1{
+	
+	color: green;
+
+
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+
