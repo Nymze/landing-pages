@@ -2,8 +2,86 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@font-face {
+  font-family: "League Spartan Bold";
+  src: url(/assets/LeagueSpartan-Bold.otf) format("truetype");
+}
+
+
+body{
+	
+	width:100%;
+	height:100%;
+
+}
 .homelink{
+
+
+	display: inline-block;
+	text-align: center;
+	margin: auto;
+	
+	font-family: "League Spartan Bold";
+	
+	Text-decoration: none;
+	font-size: 200%;
+
+}
+
+.bluepill{
+
+color: blue;
 	
 
-	color: blue;
+}
+
+.redpill{
+	
+	color: red;
+
+}
+
+.general{
+	
+	
+	text-align:center;
+}
+
+.h1home{
+	
+	text-align:center;
+}
+
+.phome{
+	
+	display: flex;
+	margin: auto;
+	width: 50%;
+	text-align:center;
+	font-family: "League Spartan Bold";
+}
+
+.linkshomediv{
+
+	
+	margin-top: 10%;
+	text-align:center;
+	display: flex;
+	
+	
+	
+	
+	
+
+}
+
+.linksmajordiv{
+
+
+}
+
+.morpheus{
+	
+	height: 100%;
+	width: 75%;
 }

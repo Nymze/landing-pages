@@ -1,6 +1,26 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
 
-<%= link_to "checkr", home_checkr_path, class: "homelink" %>
-<%= link_to "flynn",  home_flynn_path, class: "homelink" %>
-<%= link_to "sparks", home_sparks_path, class: "homelink" %>
+
+<div class="general"> 
+<h1 class="h1home">"This is your last chance."</h1>
+<p class="phome">After this, there is no turning back. You take the blue pill - the story ends, you wake up in your bed and believe whatever you want to believe. You take the red pill - you stay in Wonderland and I show you how deep the rabbit-hole goes.</p>
+</div> <!-- general -->
+
+
+<div class="linksmajordiv">
+<div class="linkshomediv"> 
+
+<%= link_to "Blue Pill", home_checkr_path, class: "homelink bluepill" %>
+
+<div class="morpheus">
+	<%=image_tag("morpheus.jpeg", alt: "morpheus", class: "morphimg") %>
+
+</div> <!-- logo -->
+
+
+<%= link_to "Red Pill",  home_flynn_path, class: "homelink redpill" %>
+
+
+
+
+</div><!--  linksshomediv-->
+</div> <!-- linksmajordiv -->

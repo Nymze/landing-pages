@@ -85,12 +85,13 @@ height: 100%;
 }
 
 .bckgrd{
-	/* border: solid red; */
+	
 background-image: url(backgrdcheckr.jpg);
 background-position: fixed;
 background-repeat: no-repeat;
 background-size: cover;
-height: 80.5%;
+height: 75%;
+padding-bottom: none;
 
 
 }
